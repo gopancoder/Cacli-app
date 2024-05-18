@@ -1,3 +1,9 @@
-interface calci{
-	int add(int  a,int b);
+interface Calci {
+	int add(int a, int b);
+}
+
+class CalciImpl implements Calci {
+	public int add(int a, int b) {
+		return a + b;
+	}
 }
