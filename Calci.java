@@ -15,7 +15,8 @@ class CalciDriver {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		System.out.println("Sum:" + add(a, b));
+		CalciImpl ci = new CalciDriver();
+		System.out.println("Sum:" + ci.add(a, b));
 
 	}
 }
